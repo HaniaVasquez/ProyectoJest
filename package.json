@@ -1,0 +1,24 @@
+{
+  "name": "proyectojest",
+  "version": "1.0.0",
+  "description": "Proyecto de prueba para implementar Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:cobertura": "jest --coverage",
+    "test:vigilar": "jest --watchAll"
+  },
+  "keywords": [
+    "Pruebas",
+    "Unitarias",
+    "Jest"
+  ],
+  "author": "Hania S. Vásquez M <haniavasquez@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.10.4",
+    "babel-jest": "^26.1.0",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^26.1.0"
+  }
+}
